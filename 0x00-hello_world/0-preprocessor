@@ -1,2 +1,2 @@
 #!/bin/bash
-cgg -E $CFILE -o c
+cgg $CFILE -o c
