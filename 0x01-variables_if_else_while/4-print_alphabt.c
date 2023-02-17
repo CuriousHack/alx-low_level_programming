@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: a program to print
- * the alphabets without eand q 
+ * the alphabets without e and q
  * using putchar function
  *
  * Return: Always 0 (Success)
@@ -17,9 +17,7 @@ int main(void)
 	while (ch <= 'z')
 	{
 		if (ch == 'e' || ch == 'q')
-		{
 			continue;
-		}
 		putchar(ch);
 		ch++;
 	}
