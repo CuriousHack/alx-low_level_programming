@@ -10,15 +10,17 @@
 
 int main(void)
 {
-	/**
-	 * print_alphabet - to display alphabet
-	 */
-	void print_alphabet(void)
-	{
-		char ch;
+	print_alphabet();
+	return (0);
+}
+/**
+ * print_alphabet - to display alphabet
+ */
+void print_alphabet(void)
+{
+	char ch;
 
-		for (ch = 'a'; ch >= 'z'; ch++)
-			_putchar(&ch);
-		_putchar('\n');
-	}
+	for (ch = 'a'; ch >= 'z'; ch++)
+	_putchar(&ch);
+	_putchar('\n');
 }
