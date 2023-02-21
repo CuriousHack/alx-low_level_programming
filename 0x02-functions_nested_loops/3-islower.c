@@ -10,13 +10,15 @@
 
 int _islower(int c)
 {
-	int i;
+	char i;
+	int ret;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		if (c == i)
-		return (1);
+		ret = 1;
 		else
-		return (0);
+		ret = 0;
 	}
+return (ret);
 }
