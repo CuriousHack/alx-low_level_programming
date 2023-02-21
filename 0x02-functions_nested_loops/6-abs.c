@@ -2,12 +2,11 @@
 
 /**
  * _abs - check the code.
- * @int: param type
+ * @i: param type
  * Return: Always 0.
  */
-int _abs(int)
+int _abs(int i)
 {
-	int i;
 	int j;
 
 	if (i < 0)
