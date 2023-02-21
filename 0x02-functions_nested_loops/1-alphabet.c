@@ -10,17 +10,17 @@
 
 int main(void)
 {
+	/**
+	* print_alphabet - to display alphabet
+	*/
+	void print_alphabet(void)
+	{
+		char c;
+
+		for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+		_putchar('\n');
+	}
 	print_alphabet();
 	return (0);
-}
-/**
- * print_alphabet - to display alphabet
- */
-void print_alphabet(void)
-{
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	_putchar(c);
-	_putchar('\n');
 }
