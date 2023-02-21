@@ -11,7 +11,7 @@ int _abs(int i)
 
 	if (i < 0)
 	{
-		j = i + i + i;
+		j = -(i);
 	}
 	else
 	{
