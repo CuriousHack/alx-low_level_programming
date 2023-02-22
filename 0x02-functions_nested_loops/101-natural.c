@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
+ *
+ * Description: 'Program to print
+ * the natural numbers'
  *
  * Return: Always 0 (Success)
  */
@@ -12,8 +15,8 @@ int main(void)
 	for (i = 0; i < 1024; i++)
 	{
 		if ((i % 5 == 0) || (i % 3 == 0))
-				sum+=i;
+			sum += i;
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
