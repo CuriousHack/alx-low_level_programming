@@ -28,5 +28,5 @@ void times_table(void)
 			b++;
 		}
 	}
-	return (0);
+	return;
 }
