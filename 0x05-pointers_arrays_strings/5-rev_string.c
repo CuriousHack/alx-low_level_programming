@@ -15,7 +15,7 @@ void rev_string(char *s)
 	{
 		n++;
 	}
-	charb[n];
+	char b[n];
 	for (count = n - 1; count >= 0; count--)
 	{
 		b[m] = s[n];
