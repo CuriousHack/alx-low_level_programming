@@ -1,4 +1,4 @@
-#import "main.h"
+#include "main.h"
 
 /**
  * print_rev - function to reverse a string
