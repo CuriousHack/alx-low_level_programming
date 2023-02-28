@@ -15,11 +15,11 @@ void puts_half(char *str)
 	}
 	if (counter % 2 == 0)
 	{
-		j = counter / 2;
+		j = (counter - 1) / 2;
 	}
 	else
 	{
-		j = (counter - 1) / 2;
+		j = (counter - 2) / 2;
 	}
 	for (i = j; i <= counter; i++)
 	{
