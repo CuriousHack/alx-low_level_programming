@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * cap_string - function to cap all words
