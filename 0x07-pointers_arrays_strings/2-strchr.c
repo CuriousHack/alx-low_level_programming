@@ -10,10 +10,10 @@ char *_strchr(char *s, char c)
 {
 	unsigned int counter = 0;
 
-	for (; s[counter] != '\0'; counter++)
-		if (s[counter] == c)
-			return (*s[counter]);
-	if (s[counter] == c)
-		return (*s[counter]);
+	for (; *(s + counter) != '\0'; counter++)
+		if (*(s + counter) == c)
+			return (s + counter);
+	if (*(s + counter) == c)
+		return (s + counter);
 	return ('\0');
 }
