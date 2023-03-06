@@ -6,7 +6,7 @@
  * @accept: string to check
  * Return: pointer to the byte of s
  */
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
