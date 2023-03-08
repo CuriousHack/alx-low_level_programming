@@ -7,8 +7,6 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int n;
-
 	if (*s != '\0')
 	{
 		s++;
