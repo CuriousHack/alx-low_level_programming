@@ -6,7 +6,7 @@
  * @argv: args vector
  * Return: return 0 Alaways
  */
-int main(int args, char *argv[])
+int main(int args __attribute__ ((unused)), char *argv[])
 {
 	int i = 0;
 
