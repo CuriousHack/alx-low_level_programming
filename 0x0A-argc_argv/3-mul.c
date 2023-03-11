@@ -7,7 +7,7 @@
  * @argv: elements array
  * Return: 0 Always
  */
-imt main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
