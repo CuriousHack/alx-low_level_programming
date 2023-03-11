@@ -11,10 +11,9 @@ imt main(int argc, int *argv[])
 {
 	if (argc != 3)
 	{
-		printf("%s\n", "Error")
+		printf("Error");
 		return (1);
 	}
-	else
-		printf("%d\n" atoi(argv[1]) * atoi(argv[2]));
+	printf("%d\n",atoi(argv[1]) * atoi(argv[2]));
 	return (0);
 }
