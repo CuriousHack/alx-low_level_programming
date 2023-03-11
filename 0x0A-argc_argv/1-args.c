@@ -2,18 +2,12 @@
 
 /**
  * main - print number of arguments
- * @args: number of args
+ * @argc: number of args
  * @argv: args vector
  * Return: return 0 Alaways
  */
-int main(int args __attribute__ ((unused)), char *argv[])
+int main(int argc, char *argv[] __attribute__ ((unused)))
 {
-	int i = 0;
-
-	while (argv[i] != '\0')
-	{
-		i++;
-	}
-	printf("%d\n", i);
+	printf("%d\n", argc - 1);
 	return (0);
 }
