@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * mmain - print all arguments
+ * main - print all arguments
  * @argc: argument count
  * @argv: argument vector
  * Return: return 0 Alwats true
