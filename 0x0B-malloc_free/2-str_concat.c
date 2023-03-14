@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	while (s2[j] != '\0')
 	{
-		s1[i] == s2[j];
+		s1[i] = s2[j];
 		j++;
 		i++;
 	}
@@ -36,7 +36,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	for (m = 0; m < i; m++)
 	{
-		arr[m] = s1;
+		arr[m] == s1;
 	}
 	return (arr);
 }
