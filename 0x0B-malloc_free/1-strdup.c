@@ -18,6 +18,6 @@ char *_strdup(char *str)
 		return (NULL);
 	if (str == NULL)
 		return (NULL);
-	memcpy(str, new_str, len);
+	memcpy(new_str, str, len);
 	return (new_str);
 }
