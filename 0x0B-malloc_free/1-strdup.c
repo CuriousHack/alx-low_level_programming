@@ -11,12 +11,12 @@ char *_strdup(char *str)
 {
 	char *new_str;
 
-	if (str == NULL)
-		return (NULL);
 	size_t len = strlen(str) + 1;
 
 	new_str = malloc(len);
 
+	if (str == NULL)
+		return (NULL);
 	if (new_str == NULL)
 		return (NULL);
 	memcpy(new_str, str, len);
