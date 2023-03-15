@@ -28,9 +28,10 @@ char *argstostr(int ac, char **av)
 	arr = malloc((counter + 1) * sizeof(char));
 
 	if (arr == NULL)
+	{
 		free(arr);
 		return (NULL);
-
+	}
 	for (i = j = m = 0; i < counter; j++, i++)
 	{
 		if (av[i][j] == '\0')
