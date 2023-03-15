@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 		free(arr);
 		return (NULL);
 	}
-	for (i = j = m = 0; i < counter; j++, i++)
+	for (i = j = m = 0; i < counter; j++, m++)
 	{
 		if (av[i][j] == '\0')
 		{
