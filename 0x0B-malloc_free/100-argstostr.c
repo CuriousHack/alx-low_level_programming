@@ -41,7 +41,7 @@ char *argstostr(int ac, char **av)
 			m++;
 			j = 0;
 		}
-		if (i < counter - 1)
+		if (m < counter - 1)
 			arr[m] = av[i][j];
 	}
 	arr[m] = '\0';
