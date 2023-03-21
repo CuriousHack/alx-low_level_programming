@@ -1,10 +1,8 @@
 #include "dog.h"
-#include <stdlib.h>
 
 /**
  * init_dog - function to initialize new value for struct dog
  * @d:struct pointer for dog
- * @dog: structure to edit
  * @name: name value
  * @age: age of the dog
  * @owner: owner value of the dog
