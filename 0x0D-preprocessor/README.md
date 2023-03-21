@@ -1,0 +1,1 @@
+defining maccros in preprocessor
