@@ -10,8 +10,6 @@ void print_dog(struct dog *d)
 {
 	if (d)
 	{
-		printf("\n");
-
 		if (!(d->name))
 			printf("Name: (nil)\n");
 		else
