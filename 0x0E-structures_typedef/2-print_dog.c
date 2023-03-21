@@ -1,11 +1,12 @@
-#include <stdio.h>
 #include "dog.h"
+#include <stdio.h>
 
 /**
- * print_dog - function to print dog details
- * @d: structure of dog
+ * print_dog - prints a struct dog.
+ * @d: struct dog.
+ *
+ * Return: no return.
  */
-
 void print_dog(struct dog *d)
 {
 	if (d)
@@ -14,11 +15,12 @@ void print_dog(struct dog *d)
 			printf("Name: (nil)\n");
 		else
 			printf("Name: %s\n", d->name);
+
 		printf("Age: %f\n", d->age);
+
 		if (!(d->owner))
-			printf("Owner: (nil)");
+			printf("Owner: (nil)\n");
 		else
 			printf("Owner: %s\n", d->owner);
 	}
-
 }
